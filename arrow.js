@@ -5,13 +5,13 @@
   Uncomment the answer underneath.
 */
 
-const exclaim = function(str) {
-  return str.toUpperCase() + '!!!'
-}
+// const exclaim = function(str) {
+//   return str.toUpperCase() + '!!!'
+// }
 
 // arrow
 // declaration
-// expression
+expression
 
 
 
@@ -22,11 +22,11 @@ const exclaim = function(str) {
   Uncomment the answer underneath.
 */
 
-const exclaimTwo = str => {
-  return str.toUpperCase() + '!!!'
-}
+// const exclaimTwo = str => {
+//   return str.toUpperCase() + '!!!'
+// }
 
-// arrow
+arrow
 // declaration
 // expression
 
@@ -37,6 +37,7 @@ const exclaimTwo = str => {
   Brownie points if you use a template string
 */
 
+// const exclaimThree = str => `${str.toUpperCase()}!!!`
 
 
 ////////// PROBLEM 3 //////////
@@ -46,12 +47,13 @@ const exclaimTwo = str => {
   Uncomment the answer underneath.
 */
 
-function exclaimFour(str) {
-  return str.toUpperCase() + '!!!'
-}
+// function exclaimFour(str) {
+//   return str.toUpperCase() + '!!!'
+// }
+
 
 // arrow
-// declaration
+declaration
 // expression
 
 
@@ -63,6 +65,8 @@ function exclaimFour(str) {
 */
 
 //CODE HERE
+
+// const jsNinja = () => 'I am a JavaScript ninja!'
 
 
 
@@ -78,9 +82,22 @@ function exclaimFour(str) {
 */
 
 //CODE HERE
-
+// const compareNums = (num1, num2) => {
+//   if ( num1 > num2 ){
+//     return num1
+//   } else {
+//     return num2
+//   }
+// }
   
-////////// PROBLEM 6 //////////
+// const compareNums = (num1, num2) => {
+//   if (num1 > num2) {
+//       return num1
+//   } else {
+//       return num2
+//   }
+// }
+// ////////// PROBLEM 6 //////////
 
 /*
     Write a one line arrow function called 'bestMovie' that takes in one parameter,
@@ -94,3 +111,13 @@ function exclaimFour(str) {
 */
 
 //CODE HERE
+
+// const bestMovie = movie => { 
+//   return movie + 'is the best movie ever!'
+// }
+
+
+const bestMovie = movie => `${movie} is the best movie ever!`
+
+bestMovie('Nacho Libre')
+
